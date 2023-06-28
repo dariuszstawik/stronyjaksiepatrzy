@@ -5,7 +5,7 @@ const ProjectFeatured = () => {
     <section className="relative py-20">
       <img
         className="hidden md:block absolute top-0 left-0 mt-24"
-        src="zeus-assets/icons/dots/blue-dot-left-bars.svg"
+        src="blue-dot-left-bars.svg"
         alt=""
       />
       <div className="relative container px-4 mx-auto text-center">

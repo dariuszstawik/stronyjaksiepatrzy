@@ -48,7 +48,7 @@ const AboutSection = () => {
       </div>
       <img
         className="hidden xl:block absolute top-0 right-0 mt-52"
-        src="zeus-assets/icons/dots/yellow-dot-right-shield.svg"
+        src="yellow-dot-right-shield.svg"
         alt=""
       />
     </section>

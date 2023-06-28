@@ -4,14 +4,14 @@ const Navbar = () => {
   return (
     <div className="relative px-4 xl:px-10">
       <nav className="flex justify-between items-center py-8">
-        <a className="inline-block mr-auto text-lg font-semibold" href="#">
+        {/* <a className="inline-block mr-auto text-lg font-semibold" href="#">
           <img
             className="h-7"
             src="zeus-assets/logo/logo-zeus-red.svg"
             alt=""
             width="auto"
           />
-        </a>
+        </a> */}
         <div className="lg:hidden ml-auto">
           <button className="navbar-burger flex items-center p-3 hover:bg-gray-50 rounded">
             <svg

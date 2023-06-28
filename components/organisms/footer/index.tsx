@@ -10,12 +10,12 @@ const Footer = () => {
               className="inline-block mb-6 text-gray-900 text-lg font-semibold"
               href="#"
             >
-              <img
+              {/* <img
                 className="h-7"
                 src="zeus-assets/logo/logo-zeus-red.svg"
                 alt=""
                 width="auto"
-              />
+              /> */}
             </a>
             <p className="hidden lg:block text-sm text-gray-500">
               All rights reserved © Zeus Corporation 2021
