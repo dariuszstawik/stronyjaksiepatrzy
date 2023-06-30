@@ -1,12 +1,24 @@
-import React from "react";
+'use client';
+
+import React, { MouseEventHandler } from "react";
 
 interface ButtonProps {
-  version: string;
+  version?: string;
   children: string;
-  path: string;
+  path?: string;
 }
 
 const Button = ({ children, version, path }: ButtonProps) => {
+
+  // const handleScroll: Function | MouseEventHandler<HTMLButtonElement> = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  //   e.preventDefault();
+  //   const href = e.currentTarget.href;
+  //   const targetId = href.replace(/.*\#/, "");
+  //   const elem = document.getElementById(targetId);
+  //   elem?.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <button
       className={(() => {
@@ -19,7 +31,7 @@ const Button = ({ children, version, path }: ButtonProps) => {
             return "block w-full md:w-auto text-center mb-2 py-4 px-8 md:mr-4 text-sm text-white font-medium leading-normal bg-red-400 hover:bg-red-300 rounded transition duration-200";
         }
       })()}
-      href={path}
+      // href={path}
     >
       {children}
     </button>

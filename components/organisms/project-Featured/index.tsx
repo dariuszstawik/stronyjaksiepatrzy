@@ -1,8 +1,9 @@
+import SectionHeader from "@/components/molecules/section-header";
 import React from "react";
 
 const ProjectFeatured = () => {
   return (
-    <section className="relative py-20">
+    <section className="relative py-20" id="projectFeatured">
       <img
         className="hidden md:block absolute top-0 left-0 mt-24"
         src="blue-dot-left-bars.svg"
@@ -10,20 +11,13 @@ const ProjectFeatured = () => {
       />
       <div className="relative container px-4 mx-auto text-center">
         <div className="max-w-2xl mx-auto">
-          <span className="text-xs text-blue-400 font-semibold">
-            strony jak się patrzy
-          </span>
-          <h2 className="mt-8 mb-10 text-4xl font-semibold font-heading">
-            Lorem ipsum dolor sit amet consectutar domor at elis
-          </h2>
+<SectionHeader superTitle="strony jak się patrzy" title="Przykładowe realizacje" isCentered/>
           <p className="mb-12 text-xl text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.
+Czy w tak przystępnych cenach możesz się spodziewać zadowalających efektów? Sprawdź moje przykładowe realizacje - stronę fundacji oraz aplikację filmową.
           </p>
 
           <div>
-            <img className="mx-auto" src="laptop.svg" alt="" />
+            <img className="mx-auto" src="jaksiepatrzy-mockup.jpg" alt="" />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderContent = () => {
   return (
-    <div className="relative container px-4 mx-auto pb-20">
+    <div className="relative container px-4 mx-auto pb-20 mt-36">
       <div className="w-full lg:w-3/5 lg:pl-16 ml-auto">
         <div className="mt-10 lg:mt-20 max-w-2xl lg:pr-10">
           <div className="max-w-xl">
