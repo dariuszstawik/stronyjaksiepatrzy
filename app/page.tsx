@@ -8,7 +8,6 @@ import PricingSection from "@/components/organisms/pricing-section";
 import ProjectFeatured from "@/components/organisms/project-Featured";
 import ProjectSection from "@/components/organisms/project-section";
 import ProjectSectionSecond from "@/components/organisms/project-section-second";
-import Image from "next/image";
 
 export default function Home() {
   return (
