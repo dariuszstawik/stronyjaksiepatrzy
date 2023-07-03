@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="w-full lg:w-4/6 px-4">
             <div className="flex flex-wrap items-center justify-end">
               <ul className="w-full lg:w-auto inline-flex flex-wrap mb-4 lg:mb-0 md:mr-6 lg:mr-12">
-{navbarData.map((item) => {
+{navbarData.map((item, i) => {
   return(
-    <li className="mr-12 mb-2 md:mb-0">
+    <li key={i} className="mr-12 mb-2 md:mb-0">
     <a className="text-sm font-medium" href={item.path}>
       {item.title}
     </a>

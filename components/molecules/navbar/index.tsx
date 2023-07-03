@@ -35,9 +35,9 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
           <ul className="flex items-center space-x-12">
-{navbarData.map((item) => {
+{navbarData.map((item, i) => {
   return(
-            <li>
+            <li key={i}>
             <a className="text-sm font-medium" href={item.path} onClick={handleScroll}>
               {item.title}
             </a>
