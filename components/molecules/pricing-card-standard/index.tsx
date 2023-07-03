@@ -90,7 +90,7 @@ const PricingcardStandard = () => {
         </li>
         
       </ul>
-<Button>Zapytaj o szczegóły</Button>
+      <Button path="#contactSection">Zapytaj o szczegóły</Button>
     </div>
   </div>
   )

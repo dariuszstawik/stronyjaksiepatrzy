@@ -4,7 +4,7 @@ const HeaderImg = () => {
   return (
     <img
       className="hidden lg:block absolute top-0 left-0 w-2/5 h-full object-cover z-30"
-      src="yak.png"
+      src="yak.jpg"
       alt=""
     />
   );
@@ -12,48 +12,3 @@ const HeaderImg = () => {
 
 export default HeaderImg;
 
-// atoms:
-
-// Button
-
-// SectionTitle
-
-// SectionSupertitle
-
-// SectionParagraph
-
-// IconAsset
-
-// HeaderImg
-
-
-// molecules:
-
-// HeaderContent
-
-// SectionHeader
-
-// PricingCard
-
-// PricingHeader
-
-// SectionList
-
-// FeaturesCard
-
-
-// organisms:
-
-// Navbar
-
-// Header
-
-// PricingSection
-
-// FeaturesSection
-
-// Footer
-
-// ProjectSection
-
-// ProjectFeatured

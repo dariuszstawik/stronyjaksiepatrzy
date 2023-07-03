@@ -91,7 +91,7 @@ const ContactSection = () => {
                   </div>
                   <button
                     type="submit"
-                    className="w-full inline-block px-6 py-4 text-sm text-white bg-red-400 hover:bg-red-300 rounded transition duration-200"
+                    className="w-full inline-block px-6 py-4 text-sm text-white bg-red-400 hover:bg-blue-400 rounded transition duration-200"
                   >
                     Wyślij
                   </button>

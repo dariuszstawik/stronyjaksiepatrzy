@@ -6,21 +6,22 @@ interface ButtonProps {
   version?: string;
   children: string;
   path?: string;
+  isExternalLink? : boolean;
 }
 
-const Button = ({ children, version, path }: ButtonProps) => {
+const Button = ({ children, version, path, isExternalLink}: ButtonProps) => {
 
-  // const handleScroll: Function | MouseEventHandler<HTMLButtonElement> = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-  //   e.preventDefault();
-  //   const href = e.currentTarget.href;
-  //   const targetId = href.replace(/.*\#/, "");
-  //   const elem = document.getElementById(targetId);
-  //   elem?.scrollIntoView({
-  //     behavior: "smooth",
-  //   });
-  // };
+  const handleScroll: MouseEventHandler<HTMLAnchorElement> = (e) =>{
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
-    <button
+    <a onClick={!isExternalLink? handleScroll : ""}
     contentEditable="false"
       className={(() => {
         switch (version) {
@@ -29,13 +30,13 @@ const Button = ({ children, version, path }: ButtonProps) => {
           case "inContact":
             return "inline-block py-3 px-8 text-sm leading-normal font-medium bg-red-50 hover:bg-red-100 text-red-500 rounded transition duration-200";
           default:
-            return "block w-full md:w-auto text-center mb-2 py-4 px-8 md:mr-4 text-sm text-white font-medium leading-normal bg-red-400 hover:bg-red-300 rounded transition duration-200";
+            return "block w-full md:w-auto text-center mb-2 py-4 px-8 md:mr-4 text-sm text-white font-medium leading-normal bg-red-400 hover:bg-blue-400 rounded transition duration-200";
         }
       })()}
-      // href={path}
+      href={path}
     >
       {children}
-    </button>
+    </a>
   );
 };
 

@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 
 const Logo = () => {
@@ -12,7 +13,7 @@ const Logo = () => {
         });
       };
   return (
-<a className="ml-10 text-xl lg:text-xl font-semibold" href="#top">
+<a className="ml-10 text-xl lg:text-xl font-semibold" href="#top" onClick={handleScroll}>
               Strony{" "}
               <span
                 className="leading-tight text-red-400"

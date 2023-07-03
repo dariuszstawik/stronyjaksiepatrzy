@@ -1,6 +1,8 @@
+'use client';
 import Button from "@/components/atoms/button";
 import Logo from "@/components/atoms/logo";
 import React from "react";
+import { navbarData } from "./navbarData";
 
 const Navbar = () => {
 
@@ -33,29 +35,20 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
           <ul className="flex items-center space-x-12">
+{navbarData.map((item) => {
+  return(
             <li>
-              <a className="text-sm font-medium" href="#aboutSection">
-                O mnie
-              </a>
-            </li>
-            <li>
-              <a className="text-sm font-medium" href="#offerSection">
-                Oferta
-              </a>
-            </li>
-            <li>
-              <a className="text-sm font-medium" href="#featuresSection">
-                Dlaczego ja
-              </a>
-            </li>
-            <li>
-              <a className="text-sm font-medium" href="#projectFeatured">
-                Realizacje
-              </a>
-            </li>
+            <a className="text-sm font-medium" href={item.path} onClick={handleScroll}>
+              {item.title}
+            </a>
+          </li>
+  )
+})}
+
+
           </ul>
           <div className="ml-auto">
-<Button version="inContact" path="#contactSection">Kontakt</Button>
+<Button version="white" path="#contactSection">Kontakt</Button>
           </div>
         </div>
       </nav>

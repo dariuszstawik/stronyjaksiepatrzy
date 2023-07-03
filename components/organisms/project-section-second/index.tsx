@@ -21,7 +21,7 @@ const ProjectSectionSecond = () => {
   <li><ListItem>responsywność.</ListItem></li>
 </ul>
 <div className="my-8">
-<Button path="https://futprints-website.vercel.app/">Przejdź do aplikacji</Button>
+<Button path="https://dariuszstawik.github.io/movie-challenge/" isExternalLink>Przejdź do aplikacji</Button>
 </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Logo from "@/components/atoms/logo";
+import { navbarData } from "@/components/molecules/navbar/navbarData";
 import React from "react";
 
 const Footer = () => {
@@ -17,26 +18,16 @@ const Footer = () => {
           <div className="w-full lg:w-4/6 px-4">
             <div className="flex flex-wrap items-center justify-end">
               <ul className="w-full lg:w-auto inline-flex flex-wrap mb-4 lg:mb-0 md:mr-6 lg:mr-12">
-                <li className="mr-12 mb-2 md:mb-0">
-                  <a className="text-sm font-medium" href="#">
-                    O mnie
-                  </a>
-                </li>
-                <li className="mr-12 mb-2 md:mb-0">
-                  <a className="text-sm font-medium" href="#">
-                    Oferta
-                  </a>
-                </li>
-                <li className="mr-12 mb-2 md:mb-0">
-                  <a className="text-sm font-medium" href="#">
-                    Cennik
-                  </a>
-                </li>
-                <li className="mb-2 md:mb-0">
-                  <a className="text-sm font-medium" href="#">
-                    Realizacje
-                  </a>
-                </li>
+{navbarData.map((item) => {
+  return(
+    <li className="mr-12 mb-2 md:mb-0">
+    <a className="text-sm font-medium" href={item.path}>
+      {item.title}
+    </a>
+  </li>
+
+  )
+})}
               </ul>
             </div>
             <p className="mt-6 lg:hidden text-sm text-gray-500">

@@ -14,35 +14,19 @@ const AboutSection = () => {
             <div className="max-w-lg">
               <SectionSupertitle>strony jak się patrzy</SectionSupertitle>
               <SectionTitle>Cześć,</SectionTitle>
-              {/* <p className="mb-6 lg:mb-12 text-gray-500 text-lg"> */}
-                {/* Przez ponad 10 lat pracowałem jako specjalista ds. marketingu i
-                promocji oraz koordynator projektów - w organizacjach
-                pozarządowych, jednostkach samorządu oraz firmach prywatnych. W
-                tym roku rozpocząłem swoją przygodę jako programista. W związku
-                z tym, że znajduję się na początku nowej drogi, do 15 lipca
-                oferuję okazyjne ceny. Obawiasz się słabych efektów? Sprawdź
-                moje realizacje - dbałość o szczegóły i zadowolenie klientów są
-                dla mnie priorytetem!&nbsp; */}
-                {/* Programista frontend, webmaster, specjalista ds. marketingu.
-                Jako programista zbieram pierwsze doświadczenia, w marketingu
-                (głównie w organizacjach pozarządowych) spędziłem ponad 10 lat.
-                Ponieważ buduję portfolio programistyczne, do 15 lipca oferuję
-                strony i aplikacje w okazyjnych cenach. Chcesz zobaczyć, jakich
-                efektów możesz się spodziewać - sprawdź moje realizacje.
-              </p> */}
 
 <SectionParagraph> Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie nowoczesną i funkcjonalną stronę internetową. Jestem programistą frontend, webmasterem i specjalistą ds. marketingu. Jako programista zbieram pierwsze doświadczenia, w marketingu (głównie w organizacjach pozarządowych) spędziłem ponad 10 lat. Ponieważ buduję portfolio programistyczne, do 15 lipca oferuję strony i aplikacje w okazyjnych cenach. Czy efekty będą równie atrakcyjne? Przekonaj się - sprawdź moje realizacje. </SectionParagraph>
 
 <div className="mt-8">
-<Button path="">Przejdź do realizacji</Button>
+<Button path="#projectFeatured">Przejdź do realizacji</Button>
 </div>
             </div>
           </div>
           <div className="relative w-full lg:w-1/2 px-4">
             <img
               className="rounded-xl object-cover lg:h-128"
-              src="https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              alt=""
+              src="DS.jpg"
+              alt="Dariusz Stawik"
             />
           </div>
         </div>

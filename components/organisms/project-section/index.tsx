@@ -23,7 +23,7 @@ const ProjectSection = () => {
   <li><ListItem>panel CMS.</ListItem></li>
 </ul>
 <div className="my-8">
-<Button path="https://futprints-website.vercel.app/">Przejdź do strony</Button>
+<Button path="https://futprints-website.vercel.app/" isExternalLink>Przejdź do strony</Button>
 </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Button from "@/components/atoms/button";
 import React from "react";
 
 const HeaderContent = () => {
@@ -26,18 +27,11 @@ const HeaderContent = () => {
           </div>
         </div>
         <div className="flex flex-wrap mb-16 lg:mb-20">
-          <a
-            className="block w-full md:w-auto text-center mb-2 py-4 px-8 md:mr-4 text-sm text-white font-medium leading-normal bg-red-400 hover:bg-red-300 rounded transition duration-200"
-            href="#"
-          >
-            Sprawdź ofertę
-          </a>
-          <a
-            className="block w-full md:w-auto text-center mb-2 py-4 px-8 text-sm font-medium rounded border hover:border-gray-300"
-            href="#"
-          >
-            Wyślij wiadomość
-          </a>
+
+          <Button path="#offerSection">Sprawdź ofertę</Button>
+         
+          <Button version="white" path="#contactSection">Wyślij wiadomość</Button>
+         
         </div>
       </div>
     </div>
