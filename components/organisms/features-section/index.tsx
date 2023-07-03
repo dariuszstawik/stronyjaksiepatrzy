@@ -52,49 +52,6 @@ Zależy mi, żeby każdy klient był zadowolony z efektów współpracy.
               </p>
             </div>
           </div>
-
-          {/* <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-10">
-            <div className="relative pt-16 pb-12 px-8 bg-gray-50 rounded-lg text-center hover:bg-white hover:shadow-2xl">
-              <span className="absolute top-0 inset-x-0 -mt-6 flex justify-center items-center w-16 h-16 mx-auto rounded-full bg-yellow-400 text-white">
-                4
-              </span>
-              <h3 className="mb-6 text-2xl font-semibold font-heading">
-                Suspendisse interdum ullamcorper elit at
-              </h3>
-              <p className="text-gray-500">
-                Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus
-                sit amet tempus vestibulum.
-              </p>
-            </div>
-          </div> */}
-          {/* <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-10">
-            <div className="relative pt-16 pb-12 px-8 bg-gray-50 rounded-lg text-center hover:bg-white hover:shadow-2xl">
-              <span className="absolute top-0 inset-x-0 -mt-6 flex justify-center items-center w-16 h-16 mx-auto rounded-full bg-orange-500 text-white">
-                5
-              </span>
-              <h3 className="mb-6 text-2xl font-semibold font-heading">
-                Suspendisse interdum ullamcorper elit at
-              </h3>
-              <p className="text-gray-500">
-                Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus
-                sit amet tempus vestibulum.
-              </p>
-            </div>
-          </div> */}
-          {/* <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-10">
-            <div className="relative pt-16 pb-12 px-8 bg-gray-50 rounded-lg text-center hover:bg-white hover:shadow-2xl">
-              <span className="absolute top-0 inset-x-0 -mt-6 flex justify-center items-center w-16 h-16 mx-auto rounded-full bg-gray-900 text-white">
-                6
-              </span>
-              <h3 className="mb-6 text-2xl font-semibold font-heading">
-                Suspendisse interdum ullamcorper elit at
-              </h3>
-              <p className="text-gray-500">
-                Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus
-                sit amet tempus vestibulum.
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

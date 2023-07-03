@@ -26,13 +26,8 @@ const OfferSection = () => {
             <div className="lg:ml-auto max-w-md">
               <h2 className="mb-6 lg:mb-10 text-4xl font-semibold font-heading" />
 <SectionHeader superTitle="strony jak się patrzy" title="Oferta"></SectionHeader>
-              {/* <p className="mb-6 lg:mb-10 text-gray-500 text-lg">
-                Chętnie wykonam dla Ciebie prostą stronę internetową lub
-                aplikację, np.:
-              </p> */}
 <SectionParagraph>Chętnie wykonam dla Ciebie prostą stronę internetową lub
                 aplikację, np.:</SectionParagraph>
-                {/* <ItemsList></ItemsList> */}
                 <ul className="my-4">
                   <li><ListItem>stronę firmową,</ListItem></li>
                   <li><ListItem>stronę projektu,</ListItem></li>

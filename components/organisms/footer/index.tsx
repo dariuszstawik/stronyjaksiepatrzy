@@ -38,12 +38,6 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              {/* <a
-                className="inline-block mr-auto lg:mr-0 py-4 px-8 text-sm text-white font-medium leafing-normal bg-red-400 hover:bg-red-300 rounded"
-                href="#"
-              >
-                Get in Touch
-              </a> */}
             </div>
             <p className="mt-6 lg:hidden text-sm text-gray-500">
               All rights reserved © Zeus Corporation 2021

@@ -21,6 +21,7 @@ const Button = ({ children, version, path }: ButtonProps) => {
   // };
   return (
     <button
+    contentEditable="false"
       className={(() => {
         switch (version) {
           case "white":

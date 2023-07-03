@@ -2,13 +2,13 @@
 import EmailIcon from "@/components/atoms/email-icon";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
-import { useRef } from "react";
+import { SyntheticEvent, useRef } from "react";
 
 
 const ContactSection = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e: Event) => {
+  const sendEmail = (e: SyntheticEvent) => {
     e.preventDefault();
 
     emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ? process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID : "" , process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ? process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID : " ", form.current ? form.current : "", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ? process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY : "")
@@ -21,7 +21,7 @@ const ContactSection = () => {
                 console.log(error.text);
               }
             );
-          e.target && e.target.reset();
+          e.target && (e.target as HTMLFormElement).reset();
   };
 
   return (
@@ -46,7 +46,7 @@ const ContactSection = () => {
                   
                   <p className="text-gray-500">Sprawdź moje profile w serwisach:</p>
                   <div className="my-6 flex items-center">
-                    <img src="Linkedin.svg" className="mr-4"></img> <img src="Github.svg" className="mr-4"></img>
+                    <img src="Linkedin.svg" className="mr-4" alt="Linkedin icon"></img> <img src="Github.svg" className="mr-4" alt="Github icon"></img>
                   </div>
                   </div>
                 </div>
@@ -77,8 +77,8 @@ const ContactSection = () => {
                   <div className="relative flex flex-wrap mb-6">
                     <textarea
                       className="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded resize-none"
-                      id={1}
-                      type="message"
+                      id="1"
+                      // type="message"
                       name="message"
                       cols={30}
                       rows={10}
