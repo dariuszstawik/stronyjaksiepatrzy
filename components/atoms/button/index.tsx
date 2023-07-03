@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const Button = ({ children, version, path, isExternalLink}: ButtonProps) => {
 
-  const handleScroll: MouseEventHandler<HTMLAnchorElement> = (e) =>{
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
@@ -20,8 +20,14 @@ const Button = ({ children, version, path, isExternalLink}: ButtonProps) => {
       behavior: "smooth",
     });
   };
+
+  const onClickHandler: MouseEventHandler<HTMLAnchorElement> | undefined = isExternalLink
+  ? undefined
+  : handleScroll;
+  
   return (
-    <a onClick={!isExternalLink? handleScroll : ""}
+
+    <a onClick={onClickHandler}
     contentEditable="false"
       className={(() => {
         switch (version) {
