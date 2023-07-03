@@ -47,7 +47,7 @@ const ContactSection = () => {
                   
                   <p className="text-gray-500">Sprawdź moje profile w serwisach:</p>
                   <div className="my-6 flex items-center">
-                    <Image src="/Linkedin.svg" className="mr-4" alt="ikona Linkedin" width={32} height={32}/> <Image src="/Github.svg" className="mr-4" alt="ikona Github" width={32} height={32}/>
+                    <Image src="/linkedin.svg" className="mr-4" alt="ikona Linkedin" width={32} height={32}/> <Image src="/github.svg" className="mr-4" alt="ikona Github" width={32} height={32}/>
                   </div>
                   </div>
                 </div>
