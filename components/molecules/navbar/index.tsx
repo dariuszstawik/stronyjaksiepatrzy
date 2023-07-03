@@ -1,10 +1,12 @@
-'use client';
+"use client";
 import Button from "@/components/atoms/button";
 import Logo from "@/components/atoms/logo";
-import React from "react";
+import React, { useState } from "react";
 import { navbarData } from "./navbarData";
 
 const Navbar = () => {
+
+const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
@@ -16,11 +18,10 @@ const Navbar = () => {
     });
   };
 
-
   return (
-    <div className="fixed w-full bg-white px-4 xl:px-10 z-20"> 
-      <nav className="flex justify-between items-center py-6">
-                    <Logo/>
+    <div className="fixed w-full bg-white px-4 xl:px-10 z-20">
+      <nav className={isMobileMenuOpen ? "flex flex-col" : "flex justify-between items-center py-6"}>
+        <Logo />
         <div className="lg:hidden ml-auto">
           <button className="navbar-burger flex items-center p-3 hover:bg-gray-50 rounded">
             <svg
@@ -35,20 +36,24 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
           <ul className="flex items-center space-x-12">
-{navbarData.map((item, i) => {
-  return(
-            <li key={i}>
-            <a className="text-sm font-medium" href={item.path} onClick={handleScroll}>
-              {item.title}
-            </a>
-          </li>
-  )
-})}
-
-
+            {navbarData.map((item, i) => {
+              return (
+                <li key={i}>
+                  <a
+                    className="text-sm font-medium"
+                    href={item.path}
+                    onClick={handleScroll}
+                  >
+                    {item.title}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
           <div className="ml-auto">
-<Button version="white" path="#contactSection">Kontakt</Button>
+            <Button version="white" path="#contactSection">
+              Kontakt
+            </Button>
           </div>
         </div>
       </nav>

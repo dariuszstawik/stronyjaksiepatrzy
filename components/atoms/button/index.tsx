@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { MouseEventHandler } from "react";
 
@@ -6,11 +6,10 @@ interface ButtonProps {
   version?: string;
   children: string;
   path?: string;
-  isExternalLink? : boolean;
+  isExternalLink?: boolean;
 }
 
-const Button = ({ children, version, path, isExternalLink}: ButtonProps) => {
-
+const Button = ({ children, version, path, isExternalLink }: ButtonProps) => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -21,14 +20,12 @@ const Button = ({ children, version, path, isExternalLink}: ButtonProps) => {
     });
   };
 
-  const onClickHandler: MouseEventHandler<HTMLAnchorElement> | undefined = isExternalLink
-  ? undefined
-  : handleScroll;
-  
-  return (
+  const onClickHandler: MouseEventHandler<HTMLAnchorElement> | undefined =
+    isExternalLink ? undefined : handleScroll;
 
-    <a onClick={onClickHandler}
-    contentEditable="false"
+  return (
+    <a
+      onClick={onClickHandler}
       className={(() => {
         switch (version) {
           case "white":

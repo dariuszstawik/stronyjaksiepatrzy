@@ -6,13 +6,13 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="relative overflow-y-hidden"  id="top">
-           <Navbar />
-<div className= "relative flex flex-col-reverse">
-      <HeaderImg />
-      <HeaderContent />
+    <section className="relative overflow-y-hidden" id="top">
+      <Navbar />
+      <div className="relative flex flex-col-reverse">
+        <HeaderImg />
+        <HeaderContent />
       </div>
-<IconAsset/>
+      <IconAsset />
     </section>
   );
 };

@@ -5,7 +5,7 @@ import React from "react";
 
 const PricingSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" id="pricingSection">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap items-center -mx-3">
           <div className="w-full lg:w-1/3 px-3 mb-10 lg:mb-0">

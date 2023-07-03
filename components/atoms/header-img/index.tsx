@@ -9,6 +9,7 @@ const HeaderImg = () => {
       alt="zdjęcie jaka pracującego na laptopie"
       width={1015}
       height={1015}
+      priority
     />
   );
 };

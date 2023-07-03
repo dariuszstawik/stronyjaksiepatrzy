@@ -22,6 +22,12 @@ export const navbarData = [
     id: 4,
     title: "Realizacje",
     path: "#projectFeatured",
+},
+
+{
+    id: 5,
+    title: "Ceny",
+    path: "#pricingSection",
 }
 
 ]

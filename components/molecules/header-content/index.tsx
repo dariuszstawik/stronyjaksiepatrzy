@@ -3,7 +3,7 @@ import React from "react";
 
 const HeaderContent = () => {
   return (
-    <div className="relative container px-4 mx-auto pb-20 mt-36">
+    <div className="relative container px-4 mx-auto pb-20 mt-28">
       <div className="w-full lg:w-3/5 lg:pl-16 ml-auto">
         <div className="mt-10 lg:mt-20 max-w-2xl lg:pr-10">
           <div className="max-w-xl">
@@ -11,7 +11,6 @@ const HeaderContent = () => {
               Strony{" "}
               <span
                 className="leading-tight block text-red-400"
-                contentEditable="false"
               >
                 jak się patrzy
               </span>{" "}
@@ -19,7 +18,6 @@ const HeaderContent = () => {
             </h2>
             <p
               className="max-w-md mb-6 lg:mb-14 text-gray-500 leading-relaxed"
-              contentEditable="false"
             >
               Potrzebujesz strony internetowej lub prostej aplikacji? Koniecznie
               zapoznaj się z moją ofertą!

@@ -17,7 +17,6 @@ const Logo = () => {
               Strony{" "}
               <span
                 className="leading-tight text-red-400"
-                contentEditable="false"
               >
                 jak się patrzy
               </span>{" "}
