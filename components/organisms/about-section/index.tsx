@@ -3,6 +3,7 @@ import IconAsset from "@/components/atoms/icon-asset";
 import SectionParagraph from "@/components/atoms/section-paragraph";
 import SectionSupertitle from "@/components/atoms/section-supertitle";
 import SectionTitle from "@/components/atoms/section-title";
+import Image from "next/image";
 import React from "react";
 
 const AboutSection = () => {
@@ -23,10 +24,12 @@ const AboutSection = () => {
             </div>
           </div>
           <div className="relative w-full lg:w-1/2 px-4">
-            <img
+            <Image
               className="rounded-xl object-cover lg:h-128"
-              src="DS.jpg"
+              src="/DS.jpg"
               alt="Dariusz Stawik"
+              width={900}
+              height={998}
             />
           </div>
         </div>

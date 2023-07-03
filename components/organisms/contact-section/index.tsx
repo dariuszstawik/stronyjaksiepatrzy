@@ -1,6 +1,7 @@
 "use client";
 import EmailIcon from "@/components/atoms/email-icon";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 import Link from "next/link";
 import { SyntheticEvent, useRef } from "react";
 
@@ -46,7 +47,7 @@ const ContactSection = () => {
                   
                   <p className="text-gray-500">Sprawdź moje profile w serwisach:</p>
                   <div className="my-6 flex items-center">
-                    <img src="Linkedin.svg" className="mr-4" alt="Linkedin icon"></img> <img src="Github.svg" className="mr-4" alt="Github icon"></img>
+                    <Image src="/Linkedin.svg" className="mr-4" alt="ikona Linkedin" width={32} height={32}/> <Image src="/Github.svg" className="mr-4" alt="ikona Github" width={32} height={32}/>
                   </div>
                   </div>
                 </div>

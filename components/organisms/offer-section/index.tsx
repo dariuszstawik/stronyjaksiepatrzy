@@ -2,6 +2,7 @@ import ListItem from "@/components/atoms/list-item";
 import SectionParagraph from "@/components/atoms/section-paragraph";
 import ItemsList from "@/components/molecules/items-list";
 import SectionHeader from "@/components/molecules/section-header";
+import Image from "next/image";
 import React from "react";
 
 const OfferSection = () => {
@@ -15,10 +16,12 @@ const OfferSection = () => {
               src="blue-dot-left-bars.svg"
               alt=""
             />
-            <img
+            <Image
               className="h-96 lg:h-128 w-full rounded-xl object-cover"
-              src="jaksiepatrzy-kwadrat1.jpg"
-              alt=""
+              src="/jaksiepatrzy-kwadrat1.jpg"
+              alt="zdjęcia jaków wyświetlonyvh na różnych urządzeniach"
+              width={1015}
+              height={1018}
             />
 
           </div>

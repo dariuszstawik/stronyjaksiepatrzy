@@ -7,9 +7,11 @@ import React from "react";
 const Header = () => {
   return (
     <section className="relative overflow-y-hidden"  id="top">
+           <Navbar />
+<div className= "relative flex flex-col-reverse">
       <HeaderImg />
-      <Navbar />
       <HeaderContent />
+      </div>
 <IconAsset/>
     </section>
   );
