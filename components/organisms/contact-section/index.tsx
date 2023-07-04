@@ -36,7 +36,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-20" id="contactSection">
+    <section className="py-32" id="contactSection">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">

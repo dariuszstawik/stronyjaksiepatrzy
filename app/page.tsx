@@ -11,7 +11,7 @@ import ProjectSectionSecond from "@/components/organisms/project-section-second"
 
 export default function Home() {
   return (
-    <div className= "relative">
+    <div className="relative">
       <Header />
       <AboutSection />
       <OfferSection />
@@ -22,6 +22,6 @@ export default function Home() {
       <PricingSection />
       <ContactSection />
       <Footer />
-      </div>
+    </div>
   );
 }
