@@ -8,10 +8,45 @@ import PricingSection from "@/components/organisms/pricing-section";
 import ProjectFeatured from "@/components/organisms/project-Featured";
 import ProjectSection from "@/components/organisms/project-section";
 import ProjectSectionSecond from "@/components/organisms/project-section-second";
+import Head from "next/head";
+import { DataLayerObject } from "./types";
+
+declare global {
+  interface Window {
+    dataLayer: DataLayerObject[];
+  }
+}
 
 export default function Home() {
   return (
     <div className="relative">
+      <Head>
+        <title>Strony jak się patrzy</title>
+        <meta
+          name="description"
+          content="Strony www jak się patrzy w cenach, jakich mało."
+        />
+        <meta property="og:title" content="Strony jak się patrzy" />
+
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(...args) {
+                window.dataLayer.push(...args);
+              }
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+            `,
+          }}
+        ></script>
+      </Head>
+
       <Header />
       <AboutSection />
       <OfferSection />
