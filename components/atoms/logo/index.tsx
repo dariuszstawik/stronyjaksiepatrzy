@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 
-const Logo = () => {
+const Logo = ({closeMobileMenu} : {closeMobileMenu: ()=>void}) => {
 
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         e.preventDefault();
@@ -13,7 +13,7 @@ const Logo = () => {
         });
       };
   return (
-<a className="ml-10 text-xl lg:text-xl font-semibold" href="#top" onClick={handleScroll}>
+<a className="ml-10 text-sm lg:text-xl font-semibold" href="#top" onClick={(e) => { closeMobileMenu(); handleScroll(e); }}>
               Strony{" "}
               <span
                 className="leading-tight text-red-400"

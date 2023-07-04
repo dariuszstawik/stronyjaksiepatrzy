@@ -26,7 +26,7 @@ const AboutSection = () => {
           <div className="relative w-full lg:w-1/2 px-4">
             <Image
               className="rounded-xl object-cover lg:h-128"
-              src="/DS.jpg"
+              src="/DS3.jpg"
               alt="Dariusz Stawik"
               width={900}
               height={998}

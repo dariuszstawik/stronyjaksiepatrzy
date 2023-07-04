@@ -1,62 +1,37 @@
 "use client";
-import Button from "@/components/atoms/button";
+import Hamburger from "@/components/atoms/hamburger";
 import Logo from "@/components/atoms/logo";
 import React, { useState } from "react";
-import { navbarData } from "./navbarData";
+import Navlinks from "../navlinks";
+import Button from "@/components/atoms/button";
 
 const Navbar = () => {
+  const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
 
-const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
+  const toggleMobileMenu = () => {
+    setIsMobileMenuActive(!isMobileMenuActive);
+  };
 
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    });
+  const closeMobileMenu = () => {
+    setIsMobileMenuActive(false);
   };
 
   return (
-    <div className="fixed w-full bg-white px-4 xl:px-10 z-20">
-      <nav className={isMobileMenuOpen ? "flex flex-col" : "flex justify-between items-center py-6"}>
-        <Logo />
-        <div className="lg:hidden ml-auto">
-          <button className="navbar-burger flex items-center p-3 hover:bg-gray-50 rounded">
-            <svg
-              className="block h-4 w-4"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Mobile menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div className="hidden lg:flex w-auto lg:w-3/5 lg:pl-16 ml-auto">
-          <ul className="flex items-center space-x-12">
-            {navbarData.map((item, i) => {
-              return (
-                <li key={i}>
-                  <a
-                    className="text-sm font-medium"
-                    href={item.path}
-                    onClick={handleScroll}
-                  >
-                    {item.title}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-          <div className="ml-auto">
-            <Button version="white" path="#contactSection">
-              Kontakt
-            </Button>
-          </div>
-        </div>
-      </nav>
+    <div className="fixed w-full h-28 flex justify-between items-center px-4 lg:px-16 py-4 bg-white top-0 left-0 z-30">
+      <Logo closeMobileMenu={closeMobileMenu} />
+      <div className="pl-16 w-3/5 flex justify-end lg:justify-between content-center items-center gap-6">
+        <Navlinks
+          isVisible={isMobileMenuActive ? true : false}
+          closeMobileMenu={closeMobileMenu}
+        />
+        <Button version="white" path="#contactSection">
+          Kontakt
+        </Button>
+        <Hamburger
+          hasCloseIcon={isMobileMenuActive ? true : false}
+          toggleMobileMenu={toggleMobileMenu}
+        />
+      </div>
     </div>
   );
 };
