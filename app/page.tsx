@@ -28,7 +28,7 @@ export default function Home() {
         />
         <meta property="og:title" content="Strony jak się patrzy" />
 
-        <script
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         ></script>
@@ -44,7 +44,20 @@ export default function Home() {
               gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
             `,
           }}
-        ></script>
+        ></script> */}
+
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+        </Script>
       </Head>
 
       <Header />
