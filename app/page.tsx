@@ -10,6 +10,7 @@ import ProjectSection from "@/components/organisms/project-section";
 import ProjectSectionSecond from "@/components/organisms/project-section-second";
 import Head from "next/head";
 import { DataLayerObject } from "./types";
+import Script from "next/script";
 
 declare global {
   interface Window {
@@ -46,7 +47,7 @@ export default function Home() {
           }}
         ></script> */}
 
-        <Script
+        {/* <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
         <Script id="google-analytics">
@@ -55,11 +56,23 @@ export default function Home() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
         `}
-        </Script>
+        </Script> */}
       </Head>
 
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+        `}
+      </Script>
       <Header />
       <AboutSection />
       <OfferSection />
