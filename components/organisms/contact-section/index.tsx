@@ -36,7 +36,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-20" id="contactSection">
+    <section className="py-32" id="contactSection">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
@@ -54,7 +54,7 @@ const ContactSection = () => {
                 <div className="my-6 flex items-center">
                   <EmailIcon />
                   <p className="text-gray-500">
-                    <a href="mailto: hello@wireframes.org">
+                    <a href="mailto: dariusz.stawik@gmail.com">
                       dariusz.stawik@gmail.com
                     </a>
                   </p>

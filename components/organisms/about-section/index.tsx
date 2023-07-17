@@ -8,7 +8,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="relative py-20" id="aboutSection">
+    <section className="relative py-16" id="aboutSection">
       <div className="relative container px-4 mx-auto">
         <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
