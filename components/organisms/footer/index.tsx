@@ -1,5 +1,6 @@
 import Logo from "@/components/atoms/logo";
 import { navbarData } from "@/components/molecules/navbar/navbarData";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -21,9 +22,9 @@ const Footer = () => {
                 {navbarData.map((item, i) => {
                   return (
                     <li key={i} className="mr-12 mb-2 md:mb-0">
-                      <a className="text-sm font-medium" href={item.path}>
+                      <Link className="text-sm font-medium" href={item.path}>
                         {item.title}
-                      </a>
+                      </Link>
                     </li>
                   );
                 })}

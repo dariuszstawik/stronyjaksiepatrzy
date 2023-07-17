@@ -28,37 +28,6 @@ export default function Home() {
           content="Strony www jak się patrzy w cenach, jakich mało."
         />
         <meta property="og:title" content="Strony jak się patrzy" />
-
-        {/* <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        ></script>
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(...args) {
-                window.dataLayer.push(...args);
-              }
-              gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-            `,
-          }}
-        ></script> */}
-
-        {/* <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
-        `}
-        </Script> */}
       </Head>
 
       <Script

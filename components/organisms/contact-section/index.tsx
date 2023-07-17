@@ -10,28 +10,18 @@ const ContactSection = () => {
   const sendEmail = (e: SyntheticEvent) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
-          ? process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
-          : "",
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
-          ? process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
-          : " ",
-        form.current ? form.current : "",
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-          ? process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-          : ""
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+        ? process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+        : "",
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+        ? process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+        : " ",
+      form.current ? form.current : "",
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        ? process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        : ""
+    );
     e.target && (e.target as HTMLFormElement).reset();
   };
 
@@ -117,7 +107,6 @@ const ContactSection = () => {
                 <textarea
                   className="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded resize-none"
                   id="1"
-                  // type="message"
                   name="message"
                   cols={30}
                   rows={10}

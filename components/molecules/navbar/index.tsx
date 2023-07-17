@@ -21,7 +21,7 @@ const Navbar = () => {
       <Logo closeMobileMenu={closeMobileMenu} />
       <div className="pl-16 w-3/5 flex justify-end lg:justify-between content-center items-center gap-6">
         <Navlinks
-          isVisible={isMobileMenuActive ? true : false}
+          isVisible={isMobileMenuActive}
           closeMobileMenu={closeMobileMenu}
         />
         <Button version="white" path="#contactSection">
