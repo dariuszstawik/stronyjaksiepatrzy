@@ -6,9 +6,13 @@ const FeaturesSection = () => {
     <section className="relative py-20" id="featuresSection">
       <div className="container px-4 mx-auto">
         <div className="max-w-2xl mb-28 mx-auto text-center">
-<SectionHeader superTitle="strony jak się patrzy" title="Dlaczego ja?" isCentered/>
+          <SectionHeader
+            superTitle="strony jak się patrzy"
+            title="Dlaczego ja?"
+            isCentered
+          />
           <p className="max-w-lg mx-auto text-xl text-gray-500">
-            Firm i osób projektujących strony internetowe jest wiele, zobacz, co
+            Firm i osób projektujących strony internetowe jest wiele. Zobacz, co
             wyróżnia moją ofertę
           </p>
         </div>
@@ -22,7 +26,8 @@ const FeaturesSection = () => {
                 korzystne ceny
               </h3>
               <p className="text-gray-500">
-                Buduję swoje portfolio, więc do 15 lipca oferuję strony w atrakcyjnych cenach.
+                Buduję swoje portfolio, więc do 23 lipca oferuję strony w
+                atrakcyjnych cenach.
               </p>
             </div>
           </div>
@@ -35,7 +40,9 @@ const FeaturesSection = () => {
                 wydajność i bezpieczeństwo
               </h3>
               <p className="text-gray-500">
-                Tworzę strony w oparciu o technologie Next.js i Contentful CMS - działają szybciej i są bezpieczniejsze od stron zbudowanych na Wordpressie.
+                Tworzę strony w oparciu o technologie Next.js i Contentful CMS -
+                działają szybciej i są bezpieczniejsze od stron zbudowanych na
+                Wordpressie.
               </p>
             </div>
           </div>
@@ -48,7 +55,8 @@ const FeaturesSection = () => {
                 poprawki bez limitu
               </h3>
               <p className="text-gray-500">
-Zależy mi, żeby każdy klient był zadowolony z efektów współpracy.
+                Zależy mi, żeby każdy klient był zadowolony z efektów
+                współpracy.
               </p>
             </div>
           </div>
