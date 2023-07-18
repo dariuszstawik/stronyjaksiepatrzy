@@ -2,10 +2,20 @@
 import EmailIcon from "@/components/atoms/email-icon";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
-import { SyntheticEvent, useRef } from "react";
+import { SyntheticEvent, useRef, useState, useEffect } from "react";
 
 const ContactSection = () => {
   const form = useRef<HTMLFormElement>(null);
+  const [showNotification, setShowNotification] = useState(false);
+
+  useEffect(() => {
+    if (showNotification) {
+      const timer = setTimeout(() => {
+        setShowNotification(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showNotification]);
 
   const sendEmail = (e: SyntheticEvent) => {
     e.preventDefault();
@@ -22,12 +32,15 @@ const ContactSection = () => {
         ? process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
         : ""
     );
+
+    setShowNotification(true);
+
     e.target && (e.target as HTMLFormElement).reset();
   };
 
   return (
     <section className="py-32" id="contactSection">
-      <div className="container px-4 mx-auto">
+      <div className="container px-4 mx-auto relative">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="max-w-md">
@@ -79,6 +92,7 @@ const ContactSection = () => {
                   </a>
                 </div>
               </div>
+              <div></div>
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-4">
@@ -123,6 +137,11 @@ const ContactSection = () => {
                 Wyślij
               </button>
             </form>
+            {showNotification && (
+              <div className="text-green-500 py-2 px-4 absolute top-100 right-0 mt-2 mr-2 rounded">
+                Wiadomość wysłana. Dziękujemy!
+              </div>
+            )}
           </div>
         </div>
       </div>
