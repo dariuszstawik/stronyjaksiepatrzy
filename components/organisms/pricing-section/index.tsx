@@ -14,7 +14,7 @@ const PricingSection = () => {
               title="Ceny aktualne do 23 lipca"
             ></SectionHeader>
             <p className="text-xl text-gray-500">
-              Wycena obejmuje podstawową funkcjonalność strony. W pzypadku
+              Wycena obejmuje podstawową funkcjonalność strony. W przypadku
               większej liczby podstron oraz dodatkowych funkcjonalności (np.
               różne wersje językowe, formularze, niestandardowe animacje) wycena
               indywidualna. Ceny netto.
