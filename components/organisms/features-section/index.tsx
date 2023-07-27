@@ -26,7 +26,7 @@ const FeaturesSection = () => {
                 korzystne ceny
               </h3>
               <p className="text-gray-500">
-                Buduję swoje portfolio, więc do 23 lipca oferuję strony w
+                Buduję swoje portfolio, więc na początek oferuję strony w
                 atrakcyjnych cenach.
               </p>
             </div>
@@ -52,11 +52,11 @@ const FeaturesSection = () => {
                 3
               </span>
               <h3 className="mb-6 text-2xl font-semibold font-heading">
-                poprawki bez limitu
+                zaangażowanie
               </h3>
               <p className="text-gray-500">
                 Zależy mi, żeby każdy klient był zadowolony z efektów
-                współpracy.
+                współpracy. W wersji premium oferuję poprawki bez limitu.
               </p>
             </div>
           </div>

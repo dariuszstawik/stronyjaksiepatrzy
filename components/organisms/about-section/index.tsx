@@ -23,7 +23,7 @@ const AboutSection = () => {
                 frontend, webmasterem i specjalistą ds. marketingu. Jako
                 programista zbieram pierwsze doświadczenia, w marketingu
                 (głównie w organizacjach pozarządowych) spędziłem ponad 10 lat.
-                Ponieważ buduję portfolio programistyczne, do 23 lipca oferuję
+                Ponieważ buduję portfolio programistyczne, na początek oferuję
                 strony i aplikacje w okazyjnych cenach. Czy efekty będą równie
                 atrakcyjne? Przekonaj się - sprawdź moje realizacje.{" "}
               </SectionParagraph>

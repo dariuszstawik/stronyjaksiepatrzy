@@ -1,18 +1,16 @@
 import Button from "@/components/atoms/button";
 import React from "react";
 
-const PricingcardStandard = () => {
+const PricingcardStart = () => {
   return (
     <div className="w-full md:w-1/2 lg:w-1/3 px-3">
-      <div className="pt-12 pb-8 px-8 border border-red-400 rounded-xl lg:text-center">
-        <h3 className="mb-6 font-semibold text-gray-500">Standard</h3>
+      <div className="pt-12 pb-8 px-8 bg-white border rounded-xl lg:text-center">
+        <h3 className="mb-6 font-semibold text-gray-500">Start</h3>
         <div className="flex lg:justify-center mb-8">
           <span className="self-start inline-block mr-2 font-semibold text-gray-500">
             od
           </span>
-          <p className="self-end text-5xl font-semibold font-heading">
-            1390 zł
-          </p>
+          <p className="self-end text-5xl font-semibold font-heading">990 zł</p>
         </div>
         <ul className="mb-6 text-left">
           <li className="flex items-center py-4 border-b">
@@ -31,7 +29,7 @@ const PricingcardStandard = () => {
                 fill="#45C1FF"
               />
             </svg>
-            <p className="font-medium">strona główna + do 4 podstron,</p>
+            <p className="font-medium">strona główna (strona one page),</p>
           </li>
           <li className="flex items-center py-4 border-b">
             <svg
@@ -104,7 +102,7 @@ const PricingcardStandard = () => {
                 fill="#45C1FF"
               />
             </svg>
-            <p className="font-medium">do 5 serii poprawek.</p>
+            <p className="font-medium">do 3 serii poprawek.</p>
           </li>
         </ul>
         <Button path="#contactSection">Zapytaj o szczegóły</Button>
@@ -113,4 +111,4 @@ const PricingcardStandard = () => {
   );
 };
 
-export default PricingcardStandard;
+export default PricingcardStart;

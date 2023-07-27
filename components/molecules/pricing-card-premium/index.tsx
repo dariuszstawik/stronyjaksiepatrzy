@@ -11,7 +11,7 @@ const PricingcardPremium = () => {
             od
           </span>
           <p className="self-end text-5xl font-semibold font-heading">
-            1490 zł
+            1890 zł
           </p>
         </div>
         <ul className="mb-6 text-left">

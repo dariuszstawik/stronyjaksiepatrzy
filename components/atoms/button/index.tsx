@@ -60,7 +60,7 @@ const Button = ({
         className={(() => {
           switch (version) {
             case "white":
-              return "block w-full md:w-auto text-center py-4 px-8 text-sm font-medium leading-normal rounded border hover:border-gray-300";
+              return "block w-full md:w-auto text-center py-4 px-8 text-sm font-medium bg-white leading-normal rounded border hover:border-gray-300";
             case "inContact":
               return "inline-block py-3 px-8 text-sm leading-normal font-medium bg-red-50 hover:bg-red-100 text-red-500 rounded transition duration-200";
             default:
