@@ -84,7 +84,7 @@ const PricingcardStart = () => {
                 fill="#45C1FF"
               />
             </svg>
-            <p className="font-medium">szkolenie z obsługi.</p>
+            <p className="font-medium">szkolenie z obsługi,</p>
           </li>
           <li className="flex items-center py-4 mb-8">
             <svg
@@ -102,7 +102,7 @@ const PricingcardStart = () => {
                 fill="#45C1FF"
               />
             </svg>
-            <p className="font-medium">do 3 serii poprawek.</p>
+            <p className="font-medium">nielimitowana ilość poprawek.</p>
           </li>
         </ul>
         <Button path="#contactSection">Zapytaj o szczegóły</Button>
