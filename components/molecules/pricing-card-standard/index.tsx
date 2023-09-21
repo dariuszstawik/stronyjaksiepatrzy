@@ -104,7 +104,7 @@ const PricingcardStandard = () => {
                 fill="#45C1FF"
               />
             </svg>
-            <p className="font-medium">nielimitowana ilość poprawek.</p>
+            <p className="font-medium">do 5 serii poprawek.</p>
           </li>
         </ul>
         <Button path="#contactSection">Zapytaj o szczegóły</Button>

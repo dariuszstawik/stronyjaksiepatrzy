@@ -52,11 +52,11 @@ const FeaturesSection = () => {
                 3
               </span>
               <h3 className="mb-6 text-2xl font-semibold font-heading">
-                poprawki bez limitu
+                zaangażowanie
               </h3>
               <p className="text-gray-500">
-                Zależy mi, żeby każdy klient był w pełni zadowolony z efektów
-                współpracy.
+                Zależy mi, żeby każdy klient był zadowolony z efektów
+                współpracy. W wersji premium oferuję poprawki bez limitu.
               </p>
             </div>
           </div>
