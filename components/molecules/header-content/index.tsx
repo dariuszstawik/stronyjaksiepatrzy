@@ -9,27 +9,23 @@ const HeaderContent = () => {
           <div className="max-w-xl">
             <h2 className="mb-6 lg:mb-12 text-4xl lg:text-5xl font-semibold">
               Strony{" "}
-              <span
-                className="leading-tight block text-red-400"
-              >
+              <span className="leading-tight block text-red-400">
                 jak się patrzy
               </span>{" "}
-              w cenach, jakich mało
+              w ofercie, jakich mało
             </h2>
-            <p
-              className="max-w-md mb-6 lg:mb-14 text-gray-500 leading-relaxed"
-            >
-              Potrzebujesz strony internetowej lub prostej aplikacji? Koniecznie
-              zapoznaj się z moją ofertą!
+            <p className="max-w-md mb-6 lg:mb-14 text-gray-500 leading-relaxed">
+              Interesuje Cię nowoczesna strona internetowa? Zależy Ci na
+              korzystnej cenie? Zapoznaj się z moją ofertą!
             </p>
           </div>
         </div>
         <div className="flex flex-wrap mb-16 lg:mb-20">
-
           <Button path="#offerSection">Sprawdź ofertę</Button>
-         
-          <Button version="white" path="#contactSection">Wyślij wiadomość</Button>
-         
+
+          <Button version="white" path="#contactSection">
+            Wyślij wiadomość
+          </Button>
         </div>
       </div>
     </div>

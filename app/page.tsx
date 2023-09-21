@@ -25,7 +25,7 @@ export default function Home() {
         <title>Strony jak się patrzy</title>
         <meta
           name="description"
-          content="Strony www jak się patrzy w cenach, jakich mało."
+          content="Strony www jak się patrzy w ofercie, jakich mało."
         />
         <meta property="og:title" content="Strony jak się patrzy" />
       </Head>

@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Strony jak się patrzy",
-  description: "Strony jak się patrzy w cenach jakich mało",
+  description: "Strony jak się patrzy w ofercie jakich mało",
 };
 
 export default function RootLayout({
