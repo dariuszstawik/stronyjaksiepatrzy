@@ -4,14 +4,14 @@ import React from "react";
 const PricingcardStandard = () => {
   return (
     <div className="w-full md:w-1/2 lg:w-1/3 px-3">
-      <div className="pt-12 pb-8 px-8 border border-red-400 rounded-xl lg:text-center">
+      <div className="pt-12 pb-8 px-8 border bg-white rounded-xl lg:text-center">
         <h3 className="mb-6 font-semibold text-gray-500">Standard</h3>
         <div className="flex lg:justify-center mb-8">
           <span className="self-start inline-block mr-2 font-semibold text-gray-500">
             od
           </span>
           <p className="self-end text-5xl font-semibold font-heading">
-            1490 zł
+            1990 zł
           </p>
         </div>
         <ul className="mb-6 text-left">

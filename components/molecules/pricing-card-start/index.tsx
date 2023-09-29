@@ -10,7 +10,9 @@ const PricingcardStart = () => {
           <span className="self-start inline-block mr-2 font-semibold text-gray-500">
             od
           </span>
-          <p className="self-end text-5xl font-semibold font-heading">990 zł</p>
+          <p className="self-end text-5xl font-semibold font-heading">
+            1690 zł
+          </p>
         </div>
         <ul className="mb-6 text-left">
           <li className="flex items-center py-4 border-b">
