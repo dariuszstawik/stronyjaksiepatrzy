@@ -23,25 +23,36 @@ const OfferSection = () => {
               width={1015}
               height={1018}
             />
-
           </div>
           <div className="relative w-full md:w-1/2 px-4 pb-20 lg:pb-0">
             <div className="lg:ml-auto max-w-md">
               <h2 className="mb-6 lg:mb-10 text-4xl font-semibold font-heading" />
-<SectionHeader superTitle="strony jak się patrzy" title="Oferta"></SectionHeader>
-<SectionParagraph>Chętnie wykonam dla Ciebie prostą stronę internetową lub
-                aplikację, np.:</SectionParagraph>
-                <ul className="my-4">
-                  <li><ListItem>stronę firmową,</ListItem></li>
-                  <li><ListItem>stronę projektu,</ListItem></li>
-                  <li><ListItem>stronę portfolio.</ListItem></li>
-                </ul>
-                <SectionParagraph>
-                Moje projekty są w pełni responsywne oraz posiadają CMS.
-                </SectionParagraph>
-
+              <SectionHeader
+                superTitle="strony jak się patrzy"
+                title="Oferta"
+              ></SectionHeader>
+              <SectionParagraph>W naszej ofercie:</SectionParagraph>
+              <ul className="my-4">
+                <li>
+                  <ListItem>projekt i wdrożenie strony internetowej,</ListItem>
+                </li>
+                <li>
+                  <ListItem>pisanie tekstów na stronę,</ListItem>
+                </li>
+                <li>
+                  <ListItem>logo firmy / projektu,</ListItem>
+                </li>
+                <li>
+                  <ListItem>sesje zdjęciowe,</ListItem>
+                </li>
+                <li>
+                  <ListItem>obsługa strony.</ListItem>
+                </li>
+              </ul>
+              {/* <SectionParagraph>
+                Strony są w pełni responsywne oraz posiadają CMS.
+              </SectionParagraph> */}
             </div>
-
           </div>
         </div>
       </div>

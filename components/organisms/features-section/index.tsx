@@ -23,11 +23,10 @@ const FeaturesSection = () => {
                 1
               </span>
               <h3 className="mb-6 text-2xl font-semibold font-heading">
-                korzystne ceny
+                rozsądne ceny
               </h3>
               <p className="text-gray-500">
-                Buduję swoje portfolio, więc na początek oferuję strony w
-                atrakcyjnych cenach.
+                Korzystniej zlecić freelancerowi niż agencji marketingowej.
               </p>
             </div>
           </div>
@@ -52,11 +51,11 @@ const FeaturesSection = () => {
                 3
               </span>
               <h3 className="mb-6 text-2xl font-semibold font-heading">
-                zaangażowanie
+                poprawki bez limitu
               </h3>
               <p className="text-gray-500">
                 Zależy mi, żeby każdy klient był zadowolony z efektów
-                współpracy. W wersji premium oferuję poprawki bez limitu.
+                współpracy.
               </p>
             </div>
           </div>

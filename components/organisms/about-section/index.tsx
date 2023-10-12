@@ -18,18 +18,25 @@ const AboutSection = () => {
 
               <SectionParagraph>
                 {" "}
-                Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
+                {/* Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
                 nowoczesną i funkcjonalną stronę internetową. Jestem programistą
                 frontend, webmasterem i specjalistą ds. marketingu. Jako
                 programista zbieram pierwsze doświadczenia, w marketingu
                 (głównie w organizacjach pozarządowych) spędziłem ponad 10 lat.
                 Ponieważ buduję portfolio programistyczne, na początek oferuję
                 strony i aplikacje w okazyjnych cenach. Czy efekty będą równie
-                atrakcyjne? Przekonaj się - sprawdź moje realizacje.{" "}
+                atrakcyjne? Przekonaj się - sprawdź moje realizacje.{" "} */}
+                Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
+                nowoczesną i funkcjonalną stronę internetową. Jestem programistą
+                frontend, webmasterem i specjalistą ds. marketingu. Jako
+                programista zacząłem w tym roku, w marketingu (głównie w
+                fundacjach i stowarzyszeniach) spędziłem ponad 10 lat.
+                Współpracuję z grafikami i fotografami, więc jeżeli potrzebujesz
+                na stronę loga lub sesji zdjęciowej, ogarniemy to!
               </SectionParagraph>
 
               <div className="mt-8">
-                <Button path="#projectFeatured">Przejdź do realizacji</Button>
+                <Button path="#projectFeatured">Sprawdź moje realizacje</Button>
               </div>
             </div>
           </div>

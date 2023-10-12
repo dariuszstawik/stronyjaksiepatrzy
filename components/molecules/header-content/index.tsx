@@ -15,8 +15,10 @@ const HeaderContent = () => {
               w ofercie, jakich mało
             </h2>
             <p className="max-w-md mb-6 lg:mb-14 text-gray-500 leading-relaxed">
-              Interesuje Cię nowoczesna strona internetowa? Zależy Ci na
-              korzystnej cenie? Zapoznaj się z moją ofertą!
+              {/* Interesuje Cię nowoczesna strona internetowa? Zależy Ci na
+              korzystnej cenie? Zapoznaj się z moją ofertą! */}
+              Nowoczesne strony internetowe bez limitu poprawek. Pracujemy aż
+              będziesz w pełni zadowolony/ a z efektów!
             </p>
           </div>
         </div>
