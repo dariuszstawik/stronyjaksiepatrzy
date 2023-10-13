@@ -34,7 +34,11 @@ const ProjectSectionThird = () => {
               </li>
             </ul>
             <div className="my-8">
-              <Button path="https://greenleaf.pl" isExternalLink isTargetBlank>
+              <Button
+                path="https://www.greenleaf.pl"
+                isExternalLink
+                isTargetBlank
+              >
                 Przejdź do strony
               </Button>
             </div>
