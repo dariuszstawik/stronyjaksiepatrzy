@@ -12,6 +12,7 @@ import Head from "next/head";
 import { DataLayerObject } from "./types";
 import Script from "next/script";
 import ProjectSectionThird from "@/components/organisms/project-section-third";
+import ProjectSectionFourth from "@/components/organisms/project-section-fourth";
 
 declare global {
   interface Window {
@@ -49,10 +50,9 @@ export default function Home() {
       <FeaturesSection />
       <ProjectFeatured />
       <ProjectSectionThird />
+      <ProjectSectionFourth />
       <ProjectSection />
       <ProjectSectionSecond />
-
-      {/* <PricingSection /> */}
       <ContactSection />
       <Footer />
     </div>
