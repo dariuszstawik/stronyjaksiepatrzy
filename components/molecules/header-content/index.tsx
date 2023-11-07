@@ -8,9 +8,9 @@ const HeaderContent = () => {
         <div className="mt-10 lg:mt-20 max-w-2xl lg:pr-10">
           <div className="max-w-xl">
             <h2 className="mb-6 lg:mb-12 text-4xl lg:text-5xl font-semibold">
-              Strony{" "}
+              Strony
               <span className="leading-tight block text-red-400">
-                jak się patrzy
+                {"<jak>"} się patrzy
               </span>{" "}
               w ofercie, jakich mało
             </h2>

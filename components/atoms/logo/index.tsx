@@ -22,7 +22,8 @@ const Logo = ({ closeMobileMenu }: { closeMobileMenu?: () => void }) => {
         handleScroll(e);
       }}
     >
-      Strony <span className="leading-tight text-red-400">jak się patrzy</span>{" "}
+      Strony{" "}
+      <span className="leading-tight text-red-400">{"<jak>"} się patrzy</span>{" "}
     </a>
   );
 };
