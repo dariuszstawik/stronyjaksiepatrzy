@@ -35,7 +35,7 @@ const ProjectSectionThird = () => {
             </ul>
             <div className="my-8">
               <Button
-                path="https://www.greenleaf.pl"
+                path="https://greenleaf.vercel.app/"
                 isExternalLink
                 isTargetBlank
               >
