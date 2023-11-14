@@ -27,7 +27,7 @@ const ProjectFeatured = () => {
           <div>
             <Image
               className="mx-auto"
-              src="/jaksiepatrzy-mockup.jpg"
+              src="/jaksiepatrzy-mockup1.jpg"
               alt="mockup witryny stronyjaksiepatrzy.pl"
               width={1200}
               height={800}
