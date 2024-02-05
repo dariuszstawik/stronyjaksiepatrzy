@@ -13,7 +13,7 @@ const Logo = ({ closeMobileMenu }: { closeMobileMenu?: () => void }) => {
   };
   return (
     <a
-      className="ml-4 text-sm lg:text-xl font-semibold"
+      className="ml-4 text-sm lg:text-xl font-semibold shrink-0"
       href="#top"
       onClick={(e) => {
         {
