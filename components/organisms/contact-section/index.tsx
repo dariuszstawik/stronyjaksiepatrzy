@@ -57,8 +57,8 @@ const ContactSection = () => {
                 <div className="my-6 flex items-center">
                   <EmailIcon />
                   <p className="text-gray-500">
-                    <a href="mailto: dariusz.stawik@gmail.com">
-                      dariusz.stawik@gmail.com
+                    <a href="mailto: dariusz@stronyjaksiepatrzy.pl">
+                      dariusz@stronyjaksiepatrzy.pl
                     </a>
                   </p>
                 </div>

@@ -29,7 +29,7 @@ const AboutSection = () => {
                 Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
                 nowoczesną i funkcjonalną stronę internetową. Jestem programistą
                 frontend, webmasterem i specjalistą ds. marketingu. Jako
-                programista zacząłem w tym roku, w marketingu (głównie w
+                programista zacząłem w zeszłym roku, w marketingu (głównie w
                 fundacjach i stowarzyszeniach) spędziłem ponad 10 lat.
                 Współpracuję z grafikami i fotografami, więc jeżeli potrzebujesz
                 na stronę loga lub sesji zdjęciowej, ogarniemy to!
