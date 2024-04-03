@@ -102,6 +102,7 @@ const ContactSection = () => {
                   className="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded"
                   type="text"
                   name="user_name"
+                  required
                 />
                 <span className="absolute top-0 left-0 ml-4 -mt-2 px-1 inline-block bg-white text-gray-500 text-xs">
                   Imię i nazwisko
@@ -112,6 +113,7 @@ const ContactSection = () => {
                   className="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded"
                   type="email"
                   name="user_email"
+                  required
                 />
                 <span className="absolute top-0 left-0 ml-4 -mt-2 px-1 inline-block bg-white text-gray-500 text-xs">
                   Adres e-mail
@@ -125,6 +127,7 @@ const ContactSection = () => {
                   cols={30}
                   rows={10}
                   defaultValue={""}
+                  required
                 />
                 <span className="absolute top-0 left-0 ml-4 -mt-2 px-1 inline-block bg-white text-gray-500 text-xs">
                   Wiadomość
