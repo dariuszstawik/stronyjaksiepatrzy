@@ -1,4 +1,3 @@
-import AboutSection from "@/components/organisms/about-section";
 import ContactSection from "@/components/organisms/contact-section";
 import FeaturesSection from "@/components/organisms/features-section";
 import Footer from "@/components/organisms/footer";
@@ -45,7 +44,7 @@ export default function Home() {
         `}
       </Script>
       <Header />
-      <AboutSection />
+
       <OfferSection />
       <FeaturesSection />
       <ProjectFeatured />
