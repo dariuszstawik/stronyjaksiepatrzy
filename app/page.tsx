@@ -13,6 +13,7 @@ import { DataLayerObject } from "./types";
 import Script from "next/script";
 import ProjectSectionThird from "@/components/organisms/project-section-third";
 import ProjectSectionFourth from "@/components/organisms/project-section-fourth";
+import TestimonialCarousel from "@/components/organisms/testimonial-carousel";
 
 declare global {
   interface Window {
@@ -53,7 +54,7 @@ export default function Home() {
       <ProjectSectionFourth />
       <ProjectSection />
       <ProjectSectionSecond />
-
+      <TestimonialCarousel />
       <ContactSection />
       <Footer />
     </div>
