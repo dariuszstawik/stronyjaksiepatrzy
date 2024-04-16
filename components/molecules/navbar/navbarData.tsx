@@ -2,30 +2,30 @@ export const navbarData = [
   {
     id: 1,
     title: "O mnie",
-    path: "#aboutSection",
+    path: "/#aboutSection",
   },
 
   {
     id: 2,
     title: "Oferta",
-    path: "#offerSection",
+    path: "/",
   },
 
   {
     id: 3,
     title: "Dlaczego ja",
-    path: "#featuresSection",
+    path: "/#featuresSection",
   },
 
   {
     id: 4,
     title: "Realizacje",
-    path: "#projectFeatured",
+    path: "/#projectFeatured",
   },
 
-  // {
-  //     id: 5,
-  //     title: "Ceny",
-  //     path: "#pricingSection",
-  // }
+  {
+    id: 5,
+    title: "Opinie",
+    path: "/#testimonials",
+  },
 ];

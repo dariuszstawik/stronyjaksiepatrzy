@@ -19,7 +19,7 @@ const ProjectFeatured = () => {
             title="Przykładowe realizacje"
             isCentered
           />
-          <p className="mb-12 text-xl text-gray-500">
+          <p className="mb-4 text-xl text-gray-500">
             Czego możesz się spodziewać po współpracy ze mną? Sprawdź moje
             przykładowe realizacje - strony internetowe oraz aplikację filmową.
           </p>

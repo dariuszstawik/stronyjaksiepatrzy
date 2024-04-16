@@ -7,7 +7,7 @@ import React from "react";
 
 const OfferSection = () => {
   return (
-    <section className="relative py-20" id="offerSection">
+    <section className="relative py-20 pt-28" id="offerSection">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap items-start -mx-4">
           <div className="relative w-full md:w-1/2 px-4 mb-12 md:mb-0">
@@ -18,7 +18,7 @@ const OfferSection = () => {
             />
             <Image
               className="h-96 lg:h-128 w-full rounded-xl object-cover"
-              src="/jaksiepatrzy-kwadrat1.jpg"
+              src="/jack-mockup.jpg"
               alt="zdjęcia jaków wyświetlonyvh na różnych urządzeniach"
               width={1015}
               height={1018}

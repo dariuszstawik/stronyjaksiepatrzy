@@ -13,6 +13,7 @@ import { DataLayerObject } from "./types";
 import Script from "next/script";
 import ProjectSectionThird from "@/components/organisms/project-section-third";
 import ProjectSectionFourth from "@/components/organisms/project-section-fourth";
+import TestimonialCarousel from "@/components/organisms/testimonial-carousel";
 
 declare global {
   interface Window {
@@ -27,7 +28,7 @@ export default function Home() {
         <title>Strony jak się patrzy</title>
         <meta
           name="description"
-          content="Strony www jak się patrzy w ofercie, jakich mało."
+          content="Nowoczesne strony internetowe bez limitu poprawek"
         />
         <meta property="og:title" content="Strony jak się patrzy" />
       </Head>
@@ -53,6 +54,7 @@ export default function Home() {
       <ProjectSectionFourth />
       <ProjectSection />
       <ProjectSectionSecond />
+      <TestimonialCarousel />
       <ContactSection />
       <Footer />
     </div>

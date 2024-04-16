@@ -7,7 +7,7 @@ import React from "react";
 
 const ProjectSectionSecond = () => {
   return (
-    <section className="relative py-20 overflow-x-hidden">
+    <section className="relative py-16 overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col sm:max-w-md">
@@ -51,7 +51,7 @@ const ProjectSectionSecond = () => {
           height={800}
         />
       </div>
-      <div className="hidden lg:block lg:absolute lg:top-0 lg:mt-32 transition ease-in-out delay-150 lg:-mr-40 lg:right-0 lg:w-1/2 hover:-translate-x-60">
+      <div className="hidden lg:block lg:absolute lg:top-0 lg:mt-16 transition ease-in-out delay-150 lg:-mr-40 lg:right-0 lg:w-1/2 hover:-translate-x-60">
         <Image
           className="h-full w-full"
           src="/co-to-za-film-mockup.png"
