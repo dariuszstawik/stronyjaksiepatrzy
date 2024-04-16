@@ -20,8 +20,8 @@ const AboutSection = () => {
                 Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
                 nowoczesną i funkcjonalną stronę internetową. Oferuję
                 <b>strony bez limitu poprawek</b>, choć wszyscy mi to odradzali.
-                "Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
-                przeciągać pracę w nieskończoność". To, co jest jednak dla mnie
+                Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
+                przeciągać pracę w nieskończoność. To, co jest jednak dla mnie
                 najważniejsze, to żebyś był/a naprawdę zadowolony/a z efektów
                 naszej pracy!
               </SectionParagraph>
