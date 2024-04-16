@@ -116,47 +116,6 @@ export default function TestimonialCarousel() {
             nowocześnie. Super kontakt i wsparcie pierwszorzędne ze strony Pana
             Dariusza.
           </TestimonialCard>
-          {/* <TestimonialCard
-            name="Dr hab. Jerzy Krzyszkowski"
-            title="Prof. Uniwersytetu Jana Długosza w Częstochowie"
-          >
-            Superwizja jest ważnym narzędziem zarządzania zasobami ludzkimi w
-            jednostkach organizacyjnych pomocy społecznej. Może ona istotnie
-            ułatwić, pomóc w zmianie stylu kierowania poprzez m.in. zwiększenie
-            partycypacji pracowników w zarządzaniu, tworzenie zespołów
-            zadaniowych czy uelastycznienie struktur organizacyjnych.
-          </TestimonialCard>
-          <TestimonialCard
-            name="Ewa Błędowska"
-            title="Kierowniczka Działu Pomocy Środowiskowej MOPS w Wodzisławiu Śląskim"
-          >
-            Superwizja to niewątpliwie zwiększanie samoświadomości w pracy
-            zawodowej lecz nie tylko – dla mnie to także rozwój samej siebie,
-            możliwość przeanalizowania własnych postępowań, działań, zachowań.
-            Mówiąc krótko – superwizuj się a otworzysz przed sobą nowe ścieżki.
-          </TestimonialCard>
-          <TestimonialCard
-            name="Dr hab. Izabela Krasiejko"
-            title="Prof. Uniwersytetu Jana Długosza w Częstochowie"
-          >
-            Superwizja pracy socjalno-wychowawczej i terapeutycznej umożliwia
-            refleksję nad metodycznym działaniem asystenta z rodziną i poziomem
-            współpracy z kooperantami. Służy zarówno podniesieniu jakości
-            usługi, jak i profesjonalizacji zawodu asystent rodziny.
-            Ogólnopolskie Stowarzyszenie Asystentów Rodziny czyni starania, by
-            zapis o obowiązku pracodawcy do zagwarantowania asystentom rodziny i
-            koordynatorom zespołu asysty rodzinnej korzystania z superwizji
-            znalazł się w ustawie o wspieraniu rodziny i systemie pieczy
-            zastępczej.
-          </TestimonialCard>
-          <TestimonialCard
-            name="Paweł Maczyński"
-            title="Przewodniczący, Polska Federacja Związkowa Pracowników Socjalnych i Pomocy Społecznej"
-          >
-            Potrzebujemy wspólnie zadbać, by przywrócić zaufanie do superwizji
-            wśród pracowników socjalnych i uczynić superwizję faktycznie
-            dostępną dla wszystkich pomagających.
-          </TestimonialCard> */}
         </Slider>
       </div>
 

@@ -18,7 +18,7 @@ const AboutSection = () => {
 
               <SectionParagraph>
                 Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
-                nowoczesną i funkcjonalną stronę internetową. Oferuję{" "}
+                nowoczesną i funkcjonalną stronę internetową. Oferuję
                 <b>strony bez limitu poprawek</b>, choć wszyscy mi to odradzali.
                 "Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
                 przeciągać pracę w nieskończoność". To, co jest jednak dla mnie
@@ -37,7 +37,7 @@ const AboutSection = () => {
                 przekazuję 150 zł na cele społeczne.
               </SectionParagraph>
               <SectionParagraph>
-                W swoich działaniach nie jestem sam -{" "}
+                W swoich działaniach nie jestem sam -
                 <b>współpracuję z grafikami i fotografami.</b> Jeśli
                 potrzebujesz na stronę loga lub sesji zdjęciowej, to również
                 dobrze trafiłeś/aś.
