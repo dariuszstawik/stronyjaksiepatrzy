@@ -39,7 +39,7 @@ const FeaturesSection = () => {
                 wydajność i bezpieczeństwo
               </h3>
               <p className="text-gray-500">
-                Tworzę strony w oparciu o technologie Next.js i Contentful CMS -
+                Tworzę strony w oparciu o technologie Next.js i headless CMS -
                 działają szybciej i są bezpieczniejsze od stron zbudowanych na
                 Wordpressie.
               </p>
