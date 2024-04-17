@@ -135,47 +135,52 @@ export default function TestimonialCarousel() {
 
       <div className="lg:hidden">
         <Slider {...settingsSm}>
-          <TestimonialCard name="Beata Kisiel" title="Pracowniczka socjalna">
-            Superwizja pracy socjalnej to dla mnie cenne narzędzie. Podczas
-            spotkań superwizyjnych mam poczucie wsparcia, zespołowej „burzy
-            mózgów” i szukania rozwiązań. Czuję się bezpieczna wiedząc, że nie
-            będę oceniana ani krytykowana za dotychczasowe działania podejmowane
-            w ramach pracy z rodzinami. Uczestnictwo w tych spotkaniach pozwala
-            na zdobycie wiedzy poprzez naukę na konkretnych przykładach. Ważne
-            jest to, że z każdego spotkania wychodzę z propozycjami nowych
-            rozwiązań, co ułatwia mi dalszą pracę.
+          <TestimonialCard
+            name="Aleksandra Grzybkowska"
+            title="graficzka, przedsiębiorczyni, wielokrotna medalistka Mistrzostw Polski w Jeździectwie"
+          >
+            Zanim poznałam Darka, zleciłam stworzenie swojej strony{" "}
+            <a
+              href="https://smart-equestrian.pl"
+              className="text-blue-600"
+              target="_blank"
+            >
+              www.smart-equestrian.pl
+            </a>{" "}
+            agencji marketingowej. Strona była bardzo słaba, zrobiona z szablonu
+            pomimo zapewnień, że była tworzona od zera. Na koniec firma odmówiła
+            wprowadzenia poprawek - pomimo informacji o moim urlopie, bo rzekomo
+            zgłosiłam je za późno. Kiedy przekazałam projekt tej stronki do
+            Darka - byłam w szoku, że można robić strony aż tak bardzo 1:1.
+            Jestem bardzo zadowolona z przebiegu tego zlecenia. Darek jest
+            przesympatyczny, wyrozumiały i dokładny w tym co robi. Wyrazem
+            mojego zaufania i aptrobaty jest rychły koniec prac nad kolejnym
+            projektem dla firmy Goliat sp. z o.o.! Darek przejął ten projekt po
+            innej osobie, która porzuciła go ze względu na jego skomplikowanie
+            graficzne. Słowem podsumowania - Darek realizuje projekty dokładnie
+            tak jak tego oczekujesz (oraz doradza jeżeli jego zdaniem coś
+            mogłoby wyglądać lepiej). Jest kulturalny, sympatyczny i zdolny.
+            Polecam całym sercem i rozumem!
           </TestimonialCard>
           <TestimonialCard
-            name="Małgorzata Aleksandrowicz"
-            title="Dyrektorka Centrum Usług Społecznych w Myślenicach"
+            name="Wojciech Ciesielkiewicz"
+            title="Prezes Fundacji Kopalnia Inicjatyw"
           >
-            W kalendarzu naszego ośrodka, superwizja dla pracowników socjalnych,
-            asystentów rodziny i kadry zarządzającej od lat zajmuje stałe i
-            ważne miejsce. Dla mnie to czas refleksji nad omawianą sytuacją,
-            czas na ujawnienie własnych uczuć, sformułowanie oczekiwań i impuls
-            do zaplanowania dalszych działań, realizacji celów, wdrażania zmian.
-            Ta istotna forma wsparcia jest narzędziem doskonalenia naszych
-            kompetencji zawodowych, pozyskiwania wiedzy i umiejętności,
-            umożliwiającym wymianę doświadczeń oraz budowanie relacji w grupie.
-          </TestimonialCard>
-          <TestimonialCard
-            name="Dr hab. Jerzy Krzyszkowski"
-            title="Prof. Uniwersytetu Jana Długosza w Częstochowie"
-          >
-            Superwizja jest ważnym narzędziem zarządzania zasobami ludzkimi w
-            jednostkach organizacyjnych pomocy społecznej. Może ona istotnie
-            ułatwić, pomóc w zmianie stylu kierowania poprzez m.in. zwiększenie
-            partycypacji pracowników w zarządzaniu, tworzenie zespołów
-            zadaniowych czy uelastycznienie struktur organizacyjnych.
-          </TestimonialCard>
-          <TestimonialCard
-            name="Ewa Błędowska"
-            title="Kierowniczka Działu Pomocy Środowiskowej MOPS w Wodzisławiu Śląskim"
-          >
-            Superwizja to niewątpliwie zwiększanie samoświadomości w pracy
-            zawodowej lecz nie tylko – dla mnie to także rozwój samej siebie,
-            możliwość przeanalizowania własnych postępowań, działań, zachowań.
-            Mówiąc krótko – superwizuj się a otworzysz przed sobą nowe ścieżki.
+            Nasza{" "}
+            <a
+              href="https://kopalniainicjatyw.eu"
+              className="text-blue-600"
+              target="_blank"
+            >
+              Fundacja Kopalnia Inicjatyw
+            </a>{" "}
+            działa już od wielu lat. Strona internetowa była w naszych planach
+            już dawno. W końcu nadszedł moment na jej założenie. Zdecydowaliśmy
+            się na Strony jak się patrzy i Pana Dariusza. Wszystko zostało
+            sprawnie ustalone i bardzo przystępnie wytłumaczone. Zostaliśmy
+            kompleksowo zaopiekowani od grafiki po aspekty techniczne. Strona
+            wygląda przejrzyście i nowocześnie. Super kontakt i wsparcie
+            pierwszorzędne ze strony Pana Dariusza.
           </TestimonialCard>
         </Slider>
       </div>
