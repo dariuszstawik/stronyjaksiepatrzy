@@ -41,17 +41,21 @@ const Navlinks = ({
                 !isNotHomepage && handleScroll(e);
               }}
             >
-              {/* <Link
-              href={navlink.path}
-              onClick={(e) => {
-                closeMobileMenu();
-              }}
-            > */}
               {navlink.title}
             </Link>
           </li>
         );
       })}
+      <li>
+        <Link
+          href="/jack-oswojony-jak"
+          onClick={(e) => {
+            closeMobileMenu();
+          }}
+        >
+          Jak Jack
+        </Link>
+      </li>
     </ul>
   );
 };
