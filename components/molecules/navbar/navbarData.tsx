@@ -26,6 +26,6 @@ export const navbarData = [
   {
     id: 5,
     title: "Opinie",
-    path: "/#testimonials",
+    path: "//#testimonials",
   },
 ];
