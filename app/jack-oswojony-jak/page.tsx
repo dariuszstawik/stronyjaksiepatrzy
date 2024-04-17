@@ -5,11 +5,12 @@ import HeaderContent from "@/components/molecules/header-content";
 import Navbar from "@/components/molecules/navbar";
 import Header from "@/components/organisms/header";
 import Head from "next/head";
+import Link from "next/link";
 import Script from "next/script";
 
 export default function JackOswojonyJak() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <Head>
         <title>Strony jak się patrzy</title>
         <meta
@@ -31,20 +32,20 @@ export default function JackOswojonyJak() {
             gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
           `}
       </Script>
-      <section className="w-screen min-h-screen">
-        <Navbar />
-        <div className="w-full mt-28 flex">
-          <div className="w-2/5 min-h-sceen shrink-0">
+      <section className="w-screen min-h-screen overflow-x-hidden">
+        <Navbar isNotHomepage />
+        <div className="w-full mt-28 flex flex-col lg:flex-row">
+          <div className="lg:w-2/5 min-h-sceen shrink-0">
             <div className="w-full min-h-sceen object-cover shrink-0">
               {" "}
               <img src="yakJack80.jpg" className="rounded-r" />
             </div>
-            <div className="my-16 w-full min-h-sceen object-cover shrink-0">
+            <div className="my-16 w-full min-h-sceen object-cover shrink-0 hidden lg:block">
               <img src="yak90.jpg" className="rounded " />
             </div>
           </div>
 
-          <div className="w-full pl-24 pr-28 pt-6">
+          <div className="w-full px-8 md:px-10 lg:pl-24 lg:pr-28 pt-6">
             <h1 className="mb-6 lg:mb-8 text-4xl lg:text-5xl font-semibold leading-tight">
               Witaj, świecie!{" "}
               <span className="block">
@@ -119,7 +120,9 @@ export default function JackOswojonyJak() {
             </p>
             <h3 className="text-xl font-semibold mt-8 mb-2">
               P.S. Masz pytania?{" "}
-              <span className="text-red-400">Nie gryź się, tylko napisz!</span>
+              <Link href="//#contactSection" className="text-red-400">
+                Nie gryź się, tylko napisz!
+              </Link>
             </h3>
           </div>
         </div>

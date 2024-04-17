@@ -19,11 +19,12 @@ const AboutSection = () => {
               <SectionParagraph>
                 Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
                 nowoczesną i funkcjonalną stronę internetową. Oferuję
-                <b>strony bez limitu poprawek</b>, choć wszyscy mi to odradzali.
-                Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
-                przeciągać pracę w nieskończoność. To, co jest jednak dla mnie
-                najważniejsze, to żebyś był/a naprawdę zadowolony/a z efektów
-                naszej pracy!
+                <b> strony bez limitu poprawek</b>, choć wszyscy mi to
+                odradzali.
+                {' "'}Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
+                przeciągać pracę w nieskończoność.{'" '}
+                To, co jest jednak dla mnie najważniejsze, to żebyś był/a
+                naprawdę zadowolony/a z efektów naszej pracy!
               </SectionParagraph>
               <SectionParagraph>
                 Zanim zająłem się tworzeniem stron, przez ponad 10 lat działałem
@@ -38,7 +39,7 @@ const AboutSection = () => {
               </SectionParagraph>
               <SectionParagraph>
                 W swoich działaniach nie jestem sam -
-                <b>współpracuję z grafikami i fotografami.</b> Jeśli
+                <b> współpracuję z grafikami i fotografami.</b> Jeśli
                 potrzebujesz na stronę loga lub sesji zdjęciowej, to również
                 dobrze trafiłeś/aś.
               </SectionParagraph>

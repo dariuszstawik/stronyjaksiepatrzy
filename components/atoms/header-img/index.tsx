@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../button";
+import Link from "next/link";
 
 const HeaderImg = () => {
   return (
@@ -25,7 +26,9 @@ const HeaderImg = () => {
         //   backgroundRepeat: "no-repeat",
         // }}
       >
-        <img src="bubble5.svg" className="w-56 rotate-3"></img>
+        <Link href="/jack-oswojony-jak">
+          <img src="bubble5.svg" className="w-56 rotate-3"></img>
+        </Link>
         {/* <h2 className="text-2xl mb-2">Hej, jestem Jack - oswojony jak.</h2>
         <h2 className="text-2xl ">Poznajmy się!</h2> */}
       </div>

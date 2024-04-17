@@ -10,6 +10,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   path?: string | Url | undefined;
   isExternalLink?: boolean;
   isTargetBlank?: boolean;
+  isNotHomepage?: boolean;
 }
 
 const Button = ({
@@ -18,6 +19,7 @@ const Button = ({
   path,
   isExternalLink,
   isTargetBlank,
+  isNotHomepage,
   ...rest
 }: ButtonProps) => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -31,7 +33,7 @@ const Button = ({
   };
 
   const onClickHandler: MouseEventHandler<HTMLAnchorElement> | undefined =
-    isExternalLink ? undefined : handleScroll;
+    isExternalLink ? undefined : isNotHomepage ? undefined : handleScroll;
 
   if (isExternalLink) {
     return (

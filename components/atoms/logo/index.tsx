@@ -1,7 +1,14 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
-const Logo = ({ closeMobileMenu }: { closeMobileMenu?: () => void }) => {
+type LogoProps = {
+  closeMobileMenu?: () => void;
+  isNotHomepage?: boolean;
+};
+
+const Logo: React.FC<LogoProps> = ({ closeMobileMenu, isNotHomepage }) => {
+  // const Logo = ({ closeMobileMenu }: { closeMobileMenu?: () => void }) => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -12,19 +19,19 @@ const Logo = ({ closeMobileMenu }: { closeMobileMenu?: () => void }) => {
     });
   };
   return (
-    <a
+    <Link
       className="ml-4 text-sm lg:text-xl font-semibold shrink-0"
-      href="#top"
+      href={`${isNotHomepage ? "/" : "/#top"}`}
       onClick={(e) => {
         {
           closeMobileMenu ? closeMobileMenu() : "";
         }
-        handleScroll(e);
+        !isNotHomepage && handleScroll(e);
       }}
     >
       Strony{" "}
       <span className="leading-tight text-red-400">{"<jak>"} się patrzy</span>{" "}
-    </a>
+    </Link>
   );
 };
 

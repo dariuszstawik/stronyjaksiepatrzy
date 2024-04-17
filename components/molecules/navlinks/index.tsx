@@ -5,10 +5,14 @@ import { navbarData } from "../navbar/navbarData";
 interface NavlinksProps {
   closeMobileMenu: () => void;
   isVisible: boolean;
+  isNotHomepage?: boolean;
 }
 
-const Navlinks = ({ isVisible, closeMobileMenu }: NavlinksProps) => {
-
+const Navlinks = ({
+  isVisible,
+  isNotHomepage,
+  closeMobileMenu,
+}: NavlinksProps) => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -30,7 +34,19 @@ const Navlinks = ({ isVisible, closeMobileMenu }: NavlinksProps) => {
       {navbarData.map((navlink, i) => {
         return (
           <li key={i}>
-            <Link href={navlink.path} onClick={(e) => { closeMobileMenu(); handleScroll(e); }}>
+            <Link
+              href={navlink.path}
+              onClick={(e) => {
+                closeMobileMenu();
+                !isNotHomepage && handleScroll(e);
+              }}
+            >
+              {/* <Link
+              href={navlink.path}
+              onClick={(e) => {
+                closeMobileMenu();
+              }}
+            > */}
               {navlink.title}
             </Link>
           </li>

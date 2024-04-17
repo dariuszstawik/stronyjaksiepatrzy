@@ -8,7 +8,7 @@ export const navbarData = [
   {
     id: 2,
     title: "Oferta",
-    path: "/",
+    path: "/#offerSection",
   },
 
   {
