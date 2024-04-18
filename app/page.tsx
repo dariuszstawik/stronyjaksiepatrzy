@@ -23,7 +23,7 @@ declare global {
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <Head>
         <title>Strony jak się patrzy</title>
         <meta
