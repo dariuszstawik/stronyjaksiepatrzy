@@ -89,7 +89,7 @@ export default function TestimonialCarousel() {
           >
             Zanim poznałam Darka, zleciłam stworzenie swojej strony{" "}
             <a
-              href="https://smart-equestrian.pl"
+              href="https://starlit-zuccutto-4884c2.netlify.app/"
               className="text-blue-600"
               target="_blank"
             >
@@ -141,7 +141,7 @@ export default function TestimonialCarousel() {
           >
             Zanim poznałam Darka, zleciłam stworzenie swojej strony{" "}
             <a
-              href="https://smart-equestrian.pl"
+              href="https://starlit-zuccutto-4884c2.netlify.app/"
               className="text-blue-600"
               target="_blank"
             >

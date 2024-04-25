@@ -36,7 +36,8 @@ const ProjectSectionFourth = () => {
             </ul>
             <div className="my-8">
               <Button
-                path="https://smart-equestrian.pl/"
+                // path="https://smart-equestrian.pl/"
+                path="https://starlit-zuccutto-4884c2.netlify.app/"
                 isExternalLink
                 isTargetBlank
               >
