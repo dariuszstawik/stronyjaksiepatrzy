@@ -39,11 +39,11 @@ const OfferSection = () => {
                 <li>
                   <ListItem>pisanie tekstów na stronę,</ListItem>
                 </li>
-                <li>
+                {/* <li>
                   <ListItem>
                     tłumaczenia na angielski przez native speakera,
                   </ListItem>
-                </li>
+                </li> */}
                 <li>
                   <ListItem>logo firmy / projektu,</ListItem>
                 </li>
