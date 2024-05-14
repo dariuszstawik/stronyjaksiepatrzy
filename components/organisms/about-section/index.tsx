@@ -17,14 +17,19 @@ const AboutSection = () => {
               <SectionTitle>Cześć,</SectionTitle>
 
               <SectionParagraph>
-                Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
+                {/* Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
                 nowoczesną i funkcjonalną stronę internetową. Oferuję
                 <b> strony bez limitu poprawek</b>, choć wszyscy mi to
                 odradzali.
                 {' "'}Klienci będą to wykorzystywać, co chwilę zmieniać zdanie,
                 przeciągać pracę w nieskończoność.{'" '}
                 To, co jest jednak dla mnie najważniejsze, to żebyś był/a
-                naprawdę zadowolony/a z efektów naszej pracy!
+                naprawdę zadowolony/a z efektów naszej pracy! */}
+                Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
+                nowoczesną i funkcjonalną stronę internetową. Oferuję{" "}
+                <b>strony bez limitu poprawek:</b> wszyscy mi to odradzali, ale
+                dla mnie najważniejsze jest to, żebyś był/a naprawdę
+                zadowolony/a z efektów naszej pracy.
               </SectionParagraph>
               <SectionParagraph>
                 Zanim zająłem się tworzeniem stron, przez ponad 10 lat działałem
