@@ -130,6 +130,18 @@ export default function TestimonialCarousel() {
             wygląda przejrzyście i nowocześnie. Super kontakt i wsparcie
             pierwszorzędne ze strony Pana Dariusza.
           </TestimonialCard>
+          <TestimonialCard
+            name="Milena Skupień-Lisgarten"
+            title="Prezeska Regionalnego Centrum Wolontariatu w Katowicach w latach 2025-2020"
+          >
+            Darek jest jedną z najbardziej kreatywnych osób, jakie znam. Kiedy
+            razem pracowaliśmy, dbał o innowacyjność naszych działań. Pozyskał
+            fundusze na wdrożenie grywalizacji do wolontariatu szkolnego,
+            organizował webinary, kiedy jeszcze prawie nikt w Polsce tego nie
+            robił, zachęcał młodzież do pokazywania swojego wolontariatu na
+            Snapchacie. We wszystko, co robił, angażował się na 100% i przy
+            każdym projekcie dbał o najdrobniejsze szczegóły.
+          </TestimonialCard>
         </Slider>
       </div>
 
