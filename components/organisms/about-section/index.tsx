@@ -26,17 +26,17 @@ const AboutSection = () => {
                 To, co jest jednak dla mnie najważniejsze, to żebyś był/a
                 naprawdę zadowolony/a z efektów naszej pracy! */}
                 Nazywam się Dariusz Stawik i chętnie stworzę dla Ciebie
-                nowoczesną i funkcjonalną stronę internetową. Jestem programistą
-                frontend, webmasterem i specjalistą ds. marketingu. Zanim
-                zająłem się tworzeniem stron, przez ponad 10 lat działałem i
-                pracowałem w fundacjach i stowarzyszeniach - głównie jako
-                koordynator projektów i specjalista ds. marketingu. Byłem też
-                wolontariuszem, m.in. pomagając w nauce dzieciakom ze świetlic
-                środowiskowych. Co wynoszę z tamtego czasu? Zaangażowanie,
-                cierpliwość, empatię i indywidualne podejście do każdego. W
-                swoich działaniach nie jestem sam - współpracuję z grafikami i
-                fotografami. Jeśli potrzebujesz na stronę loga lub sesji
-                zdjęciowej, to również dobrze trafiłeś/aś.
+                nowoczesną i funkcjonalną stronę internetową. Jestem webmasterem
+                i specjalistą ds. marketingu. Zanim zająłem się tworzeniem
+                stron, przez ponad 10 lat działałem i pracowałem w fundacjach i
+                stowarzyszeniach - głównie jako koordynator projektów i
+                specjalista ds. marketingu. Byłem też wolontariuszem, m.in.
+                pomagając w nauce dzieciakom ze świetlic środowiskowych. Co
+                wynoszę z tamtego czasu? Zaangażowanie, cierpliwość, empatię i
+                indywidualne podejście do każdego. W swoich działaniach nie
+                jestem sam - współpracuję z grafikami i fotografami. Jeśli
+                potrzebujesz na stronę loga lub sesji zdjęciowej, to również
+                dobrze trafiłeś/aś.
               </SectionParagraph>
               {/* <SectionParagraph>
                 Zanim zająłem się tworzeniem stron, przez ponad 10 lat działałem
